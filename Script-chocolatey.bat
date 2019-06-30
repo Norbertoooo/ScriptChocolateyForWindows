@@ -1,4 +1,3 @@
-DATE
 VER
 echo Iniciando script
 echo Instalando gerenciador de pacotes chocolatey
@@ -46,9 +45,9 @@ choco install postman -y
 echo Iniciando instalacao: Arduino IDE 1.8.9
 choco install arduino -y
 
-echo Iniciando instalacao: driverbooster 
-choco install driverbooster -y
+echo Iniciando instalacao: VMware workstation player
+choco install vmware-workstation-player -y
 
 echo Finalizando Script
-DATE
+
 
