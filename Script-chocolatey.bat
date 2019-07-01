@@ -36,9 +36,6 @@ npm install -g generator-jhipster@4.14.5
 echo Iniciando instalacao: mpc-hc
 choco install mpc-hc  -y
 
-echo Iniciando instalacao: Rufus
-choco install rufus -y
-
 echo Iniciando instalacao: Postman
 choco install postman -y
 
