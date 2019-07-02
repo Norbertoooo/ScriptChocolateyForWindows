@@ -42,6 +42,12 @@ choco install postman -y
 echo Iniciando instalacao: Arduino IDE 1.8.9
 choco install arduino -y
 
+echo Iniciando instalacao: Docker-Desktop
+choco install docker-desktop
+
+echo Iniciando instalacao: 7zip
+choco install 7zip
+
 echo Iniciando instalacao: VMware workstation player
 choco install vmware-workstation-player -y
 
