@@ -31,7 +31,7 @@ echo Iniciando instalacao: Datagrip
 choco install datagrip -y
 
 echo Iniciando instalacao: jhipster versão 4.14.5
-npm install -g generator-jhipster@4.14.5
+choco install jhipster --version 4.14.5 -y
 
 echo Iniciando instalacao: mpc-hc
 choco install mpc-hc  -y
@@ -42,14 +42,14 @@ choco install postman -y
 echo Iniciando instalacao: Arduino IDE 1.8.9
 choco install arduino -y
 
-echo Iniciando instalacao: Docker-Desktop
-choco install docker-desktop
-
 echo Iniciando instalacao: 7zip
-choco install 7zip
+choco install 7zip -y
 
 echo Iniciando instalacao: VMware workstation player
 choco install vmware-workstation-player -y
+
+echo Iniciando instalacao: springtoolsuite
+choco install springtoolsuite -y
 
 echo Finalizando Script
 
