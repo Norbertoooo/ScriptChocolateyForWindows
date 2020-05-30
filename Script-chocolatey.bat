@@ -7,7 +7,7 @@ choco install googlechrome -y
 
 choco install vscode -y
 
-choco install jdk8 -y
+choco install openjdk11 -y
 
 choco install nodejs-lts -y
 
@@ -15,11 +15,7 @@ choco install git -y
 
 choco install python -y
 
-choco install intellijidea-ultimate -y
-
-choco install pycharm -y
-
-choco install datagrip -y
+choco install jetbrainstoolbox
 
 choco install mpc-hc  -y
 
