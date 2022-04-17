@@ -15,6 +15,10 @@ echo Iniciando instalação - jdk 17 - liberica
 
 choco install liberica17jdk -y
 
+echo Iniciando instalação - maven
+
+choco install maven
+
 echo Iniciando instalação - nodejs - lts
 
 choco install nodejs-lts -y
